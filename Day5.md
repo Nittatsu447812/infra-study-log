@@ -1,4 +1,4 @@
-# Day5 - Linux基礎
+# Day5 - Linux基礎理解
 
 ## 今日やったこと
 
