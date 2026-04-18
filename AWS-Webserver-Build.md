@@ -28,7 +28,7 @@ AWSの基本サービス（VPC、EC2）の構築手順を習得し、リージ�
 - **SSH接続**: ローカルのUbuntuターミナルから、鍵認証を用いてEC2に接続。（①chmod 400 秘密鍵のパス　②ssh -i 秘密鍵のパス ec2-user@EC2のパブリックIP）
 - **Webサーバ構築(Apache)**: ①sudo dnf update -y　②sudo dnf install -y httpd
 - **Webサーバ起動と自動起動設定(Apache)**: ①sudo systemctl start httpd　②sudo systemctl enable httpd
-- **動作確認**: ブラウザで「http://EC2のパブリックIP」を指定し、Apacheのテストページが出れば成功。
+- **動作確認**: ブラウザで「'http://EC2のパブリックIP'」を指定し、Apacheのテストページが出れば成功。
 - **HTMLで簡易なWebページ作成**: ①sudo vi /var/www/html/index.html　②'<h1>'などのタグを使って、簡易なWebページ作成。
 
 ### 3. 通信制御の検証（セキュリティグループ）
@@ -40,7 +40,7 @@ AWSの基本サービス（VPC、EC2）の構築手順を習得し、リージ�
 ### 4. ミドルウェアの切り替え検証
 
 - **Apacheからnginxへの切り替え**: ①sudo systemctl stop httpd　②sudo systemctl disable httpd　③sudo dnf install -y nginx　④sudo systemctl start nginx　⑤sudo systemctl enable nginx
-- **動作確認**: ブラウザで「http://EC2のパブリックIP」を指定し、nginxのテストページが出れば成功。
+- **動作確認**: ブラウザで「'http://EC2のパブリックIP'」を指定し、nginxのテストページが出れば成功。
 
 ## 課題と学び
 
