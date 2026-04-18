@@ -13,4 +13,4 @@
 日々の詳細な学習記録は、各Dayのファイルを参照。
 
 - [最新のログ：Day0056（AWS操作開始）](./Day0056.md)
-- [Day0001〜Day0055はこちら](./)
+- [Day0001〜Day0055はこちら](https://github.com/Nittatsu447812/infra-study-log)
