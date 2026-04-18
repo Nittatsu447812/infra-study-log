@@ -29,7 +29,7 @@ AWSの基本サービス（VPC、EC2）の構築手順を習得し、リージ�
 - **Webサーバ構築(Apache)**: ①sudo dnf update -y　②sudo dnf install -y httpd
 - **Webサーバ起動と自動起動設定(Apache)**: ①sudo systemctl start httpd　②sudo systemctl enable httpd
 - **動作確認**: ブラウザで「`http://EC2のパブリックIP`」を指定し、Apacheのテストページが出れば成功。
-- **HTMLで簡易なWebページ作成**: ①sudo vi /var/www/html/index.html　②'<h1>'などのタグを使って、簡易なWebページ作成。
+- **HTMLで簡易なWebページ作成**: ①sudo vi /var/www/html/index.html　②`<h1>`などのタグを使って、簡易なWebページ作成。
 
 ### 3. 通信制御の検証（セキュリティグループ）
 
