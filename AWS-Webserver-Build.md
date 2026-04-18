@@ -14,6 +14,10 @@ AWSの基本サービス（VPC、EC2）の構築手順を習得し、リージ�
 - **EC2 OS**: Amazon Linux 2023
 - **Middleware**: Apache、nginx
 
+## 構成図
+
+<img width="931" height="511" alt="aws-architecture20260418 drawio" src="https://github.com/user-attachments/assets/5c6bf90b-32d4-496f-a08f-d4c264172117" />
+
 ## 実施内容と結果
 
 ### 1. ネットワーク構築
