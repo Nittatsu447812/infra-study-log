@@ -9,7 +9,7 @@
 - **LPIC-1**（2026年4月　合格）
 - **AWS Certified Solutions Architect - Associate**（2026年5月　受験予定、現在学習中）
 
-## 制作物
+## 制作物①
 
 - [AWS：VPC環境でのWebサーバ構築と通信制御](./AWS-Webserver-Build.md)
 
@@ -24,6 +24,21 @@
 - ローカルPC(Ubuntu)からのSSH接続
 - セキュリティグループによる通信制御
 - ミドルウェア比較検証（Apache/nginx）
+
+## 制作物②
+
+- [AWS：S3静的ウェブサイトホスティングによるサーバレスWeb公開](./AWS-S3-StaticSite-Build.md)
+
+### 構成図
+
+<img width="690" height="235" alt="AWS-S3-StaticSite20260419 drawio" src="https://github.com/user-attachments/assets/24f1a981-589b-4c92-82e8-7544bd2fcd0c" />
+
+### 主な内容
+
+- EC2を使わず、S3のホスティング機能を利用し、高速且つ低コストでWebページを公開
+- バケットポリシーによる権限管理
+- Webページの日本語の文字化け対策（HTML構造）
+
 
 ## 日々の学習ログ
 
