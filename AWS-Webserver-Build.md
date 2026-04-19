@@ -16,7 +16,7 @@ AWSの基本サービス（VPC、EC2）の構築手順を習得し、リージ�
 
 ## 構成図
 
-<img width="956" height="538" alt="AWS-Webserver20260418 drawio" src="https://github.com/user-attachments/assets/8aa6c18e-b95f-4abf-bd19-49ccdead65a2" />
+<img width="957" height="539" alt="AWS-Webserver20260418 drawio" src="https://github.com/user-attachments/assets/f3e94d5f-77af-483c-9e40-30d49f667ee4" />
 
 ## 実施内容と結果
 
