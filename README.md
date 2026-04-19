@@ -15,7 +15,7 @@
 
 ### 構成図
 
-<img width="931" height="511" alt="aws-architecture20260418 drawio" src="https://github.com/user-attachments/assets/84b8ceb9-fa98-482e-b2b5-df4cb62cd586" />
+<img width="956" height="538" alt="AWS-Webserver20260418 drawio" src="https://github.com/user-attachments/assets/066e13b2-b472-4499-a704-8de3825e0090" />
 
 
 ### 主な内容
