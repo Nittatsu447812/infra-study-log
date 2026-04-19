@@ -41,8 +41,9 @@ AWSのストレージサービスであるS3の「静的ウェブサイトホス
 - **原因調査**: ブラウザがファイルのの文字エンコーディング正しく識別できていないことが原因だと判明。
 - **修正対応**: HTMLの基本構造（`<html>`、`<head>`、`<body>`）を整え、`<head>`内に`<meta charset="UTF-8">`を明示的に追加。これにより、ブラウザがUTF−8として正しく解釈し、文字化けが解消されることを確認。
 
-<img width="1854" height="1048" alt="Screenshot from 2026-04-19 17-25-15" src="https://github.com/user-attachments/assets/32356667-7c82-42fd-92c9-1f6dedc33fe4" />
-<img width="1854" height="1048" alt="Screenshot from 2026-04-19 09-53-01" src="https://github.com/user-attachments/assets/1d69b15e-bcda-442e-b584-be22bdd685c2" />
+<img width="1687" height="166" alt="Screenshot 2026-04-19 at 17-43-14 Screenshot from 2026-04-19 09-53-01 png (PNG 画像 1854 × 1048 px) — 表示倍率 (91%)" src="https://github.com/user-attachments/assets/22924334-d646-400f-a127-8fd47069062a" />
+
+<img width="1706" height="162" alt="Screenshot 2026-04-19 at 17-42-42 Screenshot from 2026-04-19 17-25-15 png (PNG 画像 1854 × 1048 px) — 表示倍率 (91%)" src="https://github.com/user-attachments/assets/8d99c129-7d78-4a72-ad47-4648c89b8d03" />
 
 ## 課題と学び
 
