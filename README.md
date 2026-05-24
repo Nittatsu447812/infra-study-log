@@ -2,12 +2,12 @@
 
 未経験からインフラエンジニアになることを目指し、職業訓練校に通いながら、LinuxとAWSを中心に学習内容しています。
 実機検証を通じて学習したことをGitHubにまとめています。
-本日(2026/04/18)、学習開始から56日目を達成しました。
+本日(2026/05/24)、学習開始から92日目を達成しました。
 
 ## 資格
 
 - **LPIC-1**（2026年4月　合格）
-- **AWS Certified Solutions Architect - Associate**（2026年5月　受験予定、現在学習中）
+- **AWS Certified Solutions Architect - Associate**（2026年5月　合格）
 
 ## 制作物①
 
@@ -44,5 +44,5 @@
 
 日々の詳細な学習記録は、各Dayのファイルを参照。
 
-- [最新のログ：Day0056（AWS操作開始）](./Day0056.md)
-- [Day0001〜Day0055はこちら](https://github.com/Nittatsu447812/infra-study-log)
+- [最新のログ：Day0092（SAA試験合格）](./Day0092.md)
+- [Day0001〜Day0092はこちら](https://github.com/Nittatsu447812/infra-study-log)
