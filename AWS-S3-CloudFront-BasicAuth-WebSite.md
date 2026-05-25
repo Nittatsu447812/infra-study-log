@@ -19,7 +19,7 @@ AWSのS3とCloudFrontを利用して、静的WebサイトをHTTPSで公開する
 - **リージョン**：東京(ap-northeast-1)
 - **配信方法**：CloudFront CDN
 - **認証方法**：Basic認証
-- **Webコンテンツ**：HTML/CSS/画像
+- **Webコンテンツ**：HTML・CSS・画像
 
 ## 構成図
 
