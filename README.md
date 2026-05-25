@@ -49,7 +49,11 @@
 
 ### 主な内容
 
-
+- S3 + CloudFront による静的Webサイト公開
+- OACによるS3非公開化
+- CloudFront Functions による Basic認証実装
+- CloudFront Invalidation によるキャッシュ削除
+- draw.io による構成図作成
 
 ## 日々の学習ログ
 
