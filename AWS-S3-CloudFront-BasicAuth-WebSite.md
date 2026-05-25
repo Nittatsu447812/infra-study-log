@@ -41,14 +41,14 @@ AWSのS3とCloudFrontを利用して、静的WebサイトをHTTPSで公開する
   - **Default Root Object**：`index.html`
 
 - 結果
-  - CloudFront経由でWebページ表示成功。
+  - CloudFront経由でWebページ表示成功
 
 ### 3.OACによるS3非公開化
 
-CloudFrontのみがS3へアクセスできる構成を作成。
+CloudFrontのみがS3へアクセスできる構成を作成
 
 - 学んだこと
-  - S3を直接パブリック公開しなくても、CloudFront経由で配信できることを理解した。
+  - S3を直接パブリック公開しなくても、CloudFront経由で配信できることを理解した
 
 ### 4.CloudFront FunctionsによるBasic認証
 
