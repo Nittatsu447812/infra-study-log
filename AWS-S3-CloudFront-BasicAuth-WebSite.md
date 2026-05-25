@@ -23,6 +23,7 @@ AWSのS3とCloudFrontを利用して、静的WebサイトをHTTPSで公開する
 
 ## 構成図
 
+<img width="1427" height="464" alt="AWS-S3-CloudFront-BasicAuth-WebSite drawio" src="https://github.com/user-attachments/assets/1e7c7c7c-2ae9-49cd-a612-11b93cc8de87" />
 
 ## 実施内容と結果
 
