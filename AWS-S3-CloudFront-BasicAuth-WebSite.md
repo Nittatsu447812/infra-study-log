@@ -7,19 +7,19 @@ AWSのS3とCloudFrontを利用して、静的WebサイトをHTTPSで公開する
 
 ## 使用サービス
 
-- *Amazon S3*
-- *Amazon CloudFront*
-- *CloudFront Functions*
-- *OAC(Origin Access Control)*
+- **Amazon S3**
+- **Amazon CloudFront**
+- **CloudFront Functions**
+- **OAC(Origin Access Control)**
 
 ## 構成
 
-- *ローカル環境*：Ubuntu 24.04 LTS
-- *クラウド環境*：AWS
-- *リージョン*：東京(ap-northeast-1)
-- *配信方法*：CloudFront CDN
-- *認証方法*：Basic認証
-- *Webコンテンツ*：HTML/CSS/画像
+- **ローカル環境**：Ubuntu 24.04 LTS
+- **クラウド環境**：AWS
+- **リージョン**：東京(ap-northeast-1)
+- **配信方法**：CloudFront CDN
+- **認証方法**：Basic認証
+- **Webコンテンツ**：HTML/CSS/画像
 
 ## 構成図
 
@@ -35,10 +35,10 @@ AWSのS3とCloudFrontを利用して、静的WebサイトをHTTPSで公開する
 ### 2.CloudFrontディストリビューション作成
 
 - 設定内容
-  - *Origin*：S3
-  - *OAC*：有効
-  - *HTTPS*：有効
-  - *Default Root Object*：`index.html`
+  - **Origin**：S3
+  - **OAC**：有効
+  - **HTTPS**：有効
+  - **Default Root Object**：`index.html`
 
 - 結果
   - CloudFront経由でWebページ表示成功。
@@ -60,8 +60,8 @@ CloudFront Functionsを作成し、Viewer Requestに関連付け
   - Basic認証画面を表示
 
 - 認証情報
-  - *ID*：*****
-  - *Password*：********
+  - **ID**：*****
+  - **Password**：********
 
 ### 5.動作確認
 
