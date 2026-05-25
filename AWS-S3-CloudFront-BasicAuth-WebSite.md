@@ -35,44 +35,44 @@ AWSのS3とCloudFrontを利用して、静的WebサイトをHTTPSで公開する
 ### 2.CloudFrontディストリビューション作成
 
 - 設定内容
--- Origin：S3
--- OAC：有効
--- HTTPS：有効
--- Default Root Object：index.html
+  - Origin：S3
+  - OAC：有効
+  - HTTPS：有効
+  - Default Root Object：index.html
 
 - 結果
--- CloudFront経由でWebページ表示成功。
+  - CloudFront経由でWebページ表示成功。
 
 ### 3.OACによるS3非公開化
 
 CloudFrontのみがS3へアクセスできる構成を作成。
 
 - 学んだこと
--- S3を直接パブリック公開しなくても、CloudFront経由で配信できることを理解した。
+  - S3を直接パブリック公開しなくても、CloudFront経由で配信できることを理解した。
 
 ### 4.CloudFront FunctionsによるBasic認証
 
 CloudFront Functionsを作成し、Viewer Requestに関連付け
 
 - 実装内容
--- Authorizationヘッダを確認
--- 一致しない場合は401 Unauthorizedを返却
--- Basic認証画面を表示
+  - Authorizationヘッダを確認
+  - 一致しない場合は401 Unauthorizedを返却
+  - Basic認証画面を表示
 
 - 認証情報
--- ID：*****
--- Password：********
+  - ID：*****
+  - Password：********
 
 ### 5.動作確認
 
 - 確認内容
--- CloudFront URLへアクセス
--- Basic認証画面表示
--- ID/PW入力
--- Webページ表示成功
+  - CloudFront URLへアクセス
+  - Basic認証画面表示
+  - ID/PW入力
+  - Webページ表示成功
 
 - 結果
--- Basic認証付き限定公開サイトとして動作確認完了
+  - Basic認証付き限定公開サイトとして動作確認完了
 
 ## 課題と学び
 
