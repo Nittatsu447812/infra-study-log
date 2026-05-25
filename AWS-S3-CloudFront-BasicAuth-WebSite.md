@@ -73,6 +73,9 @@ CloudFront Functionsを作成し、Viewer Requestに関連付け
 
 - 結果
   - Basic認証付き限定公開サイトとして動作確認完了
+ 
+<img width="954" height="1028" alt="Screenshot from 2026-05-25 22-37-04" src="https://github.com/user-attachments/assets/7585d2f3-5d5b-4c71-af98-a444a41b0c13" />
+
 
 ## 課題と学び
 
