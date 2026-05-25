@@ -41,7 +41,7 @@
 
 ## 制作物③
 
-- [AWS：S3]
+- [AWS：S3 + CloudFrontによる静的Webサイト公開（Basic認証付き）](./AWS-S3-CloudFront-BasicAuth-WebSite.md)
 
 ### 構成図
 
