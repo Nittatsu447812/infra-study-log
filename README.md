@@ -39,6 +39,17 @@
 - バケットポリシーによる権限管理
 - Webページの日本語の文字化け対策（HTML構造）
 
+## 制作物③
+
+- [AWS：S3]
+
+### 構成図
+
+<img width="1427" height="464" alt="AWS-S3-CloudFront-BasicAuth-WebSite drawio" src="https://github.com/user-attachments/assets/d5442a13-6b00-4eee-9e4d-52e55c75453d" />
+
+### 主な内容
+
+
 
 ## 日々の学習ログ
 
